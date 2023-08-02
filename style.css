@@ -4,6 +4,7 @@
     list-style: none;
 }
 
+/* header begin */
 .header{
     width: 100%;
     height: 60px;
@@ -46,7 +47,9 @@
 background-color: rgb(4, 151, 236);
 }
 
+/* header end */
 
+/* landing page begin */
 .homepage-box-1{
     width: 1200px;
     height:calc(100vh-60px);
@@ -99,7 +102,9 @@ background-color: rgb(4, 151, 236);
     width: 500px;
     border-radius:30px ;
 }
+/* landing page end*/
 
+/* ürünler sayfası begin */
 .header{
     width: 100%;
     height: 60px;
@@ -167,6 +172,8 @@ background-color: rgb(4, 151, 236);
     padding-top:50px ;
     align-items: center;    
 }
+
+/* ürünler .cards begin */
 .cards{
     width: 1500px;
     margin: auto;
@@ -289,6 +296,10 @@ background-color: rgb(4, 151, 236);
    padding-left:150px ;
    color: rgb(206, 8, 8);
 }
+/* ürünler .cards end */
+/* ürünler sayfası end */
+
+/* about begin */
 .about{
     width: 100%;
     background-color: #d6ebee;
@@ -337,3 +348,4 @@ background-color: rgb(4, 151, 236);
      align-items: center;
 
  }
+ /* about end */
