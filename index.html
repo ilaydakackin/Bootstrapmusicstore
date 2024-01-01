@@ -1,39 +1,54 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music Store</title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&family=Poppins:wght@300;400&family=Roboto+Mono:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <!-- header begin -->
-    <div class="container">
-        <div class="header">
-            <div class="Logo"><h1>Music Store</h1></div>
-
-            <div class="nav-bar">
-                <ul>
-                  <li><a href="index.html">Anasayfa</a></li>
-                  <li><a href="urunler.html">Ürünler</a></li>
-                  <li><a href="about.html">Hakkımızda</a></li>
-                </ul>
-            </div>
-        </div>
-    <!-- header end -->
-    <div class="homepage-box-1">
-        <div>
-            <h1>Hoşgeldiniz</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quis sapiente eius iste aspernatur dolorum non vitae ex neque esse! Ad iste autem magnam ullam sit dolorum voluptatibus adipisci, voluptatem fugit laborum in dignissimos. Est quisquam quia rerum porro quod.</p>
-            <a href="">Keşfet</a>
-        </div> 
-        <div><img src="images/Gitar.jpg" alt=""></div> 
-    </div>
-
-    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
     
-</body>
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar beggin -->
+    <nav style="width: 100%; height: 70px;" class="d-flex justify-content-center align-items-center bg-black">
+      <div class="row d-flex align-items-center" style="width: 1600px; height: 60px; display: flex; justify-content: space-between;">
+        <a class=" col-6  text-light  fs-2" href="#">Music Store</a>
+        <div class="col-6 d-flex align-items-center text-center justify-content-end">
+          <div class="d-flex align-items-center ">
+            <a class="nav-link text-light me-4 fst-italic" href="/index.html">ANASAYFA</a>
+            <a class="nav-link text-light me-4 fst-italic" href="/store.html">STORE</a>
+            <a class="nav-link text-light me-4 fst-italic" href="/about.html">HAKKIMIZDA</a>
+            <a style="width: 120px; font-size: 16px;" class="d-flex align-items-center text-center justify-content-center  border border-light bg-white rounded-pill text-black fw-bolder p-1" class="">Arayın</a>  
+          </div>
+        </div>      
+      </div>
+    </nav>
+    <!-- navbar end -->
+    
+    <!-- homepage begginn -->
+    <div class="card text-bg-dark rounded-0">
+      <img class=" w-100 opacity-50" style="height: calc(100vh - 70px) ; object-fit:cover;" src="/images/homepage3.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay d-flex justify-content-center align-items-center text-center flex-column me-5">
+        <h5 class="card-title fs-1 fw-bold ">Music Store'a Hoşgeldiniz</h5>
+        <p style="width: 900px;" class="card-text fs-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Sint veniam cumque exercitationem magnam fugit temporibus repellat doloribus, quisquam recusandae
+          excepturi  consectetur possimus laboriosam atque libero rerum earum tempore dolorum laborum nemo 
+          reiciendis? Reprehenderit voluptatibus earum deserunt, veniam expedita est quas?</p>
+           <div class="d-flex ">
+              <a class="btn btn-light fw-bold rounded-pill me-4 mt-3 d-flex justify-content-center align-items-center" style="width: 180px; height: 50px;">Ürünleri İncele</a>
+              <a class="btn btn-light fw-bold rounded-pill me-4 mt-3 d-flex justify-content-center align-items-center" style="width: 180px; height: 50px;">Bize Ulaşın</a>
+           </div>     
+      </div>
+    </div>
+    <!-- homepage end -->
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
 </html>
